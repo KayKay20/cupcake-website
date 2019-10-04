@@ -1,0 +1,242 @@
+.flexy-menu {
+	padding: 0px;
+	position: relative;
+	z-index: 11;
+    margin: 0px;
+}
+.flexy-menu li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	float: left;
+    position: relative;
+}
+.flexy-menu > li > a {
+	zoom: 1;
+	padding: 0 5px 0 5px;
+	color: #000;
+	text-align:left;
+	display: block;
+	font-size: 16px;
+}
+.flexy-menu li:hover > a, .flexy-menu li.active a {
+	text-decoration:none;
+}
+.flexy-menu li li:hover > a, .flexy-menu li li.active a {
+	text-shadow: none;
+}
+
+.flexy-menu ul, .flexy-menu ul li ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: none;
+	position: absolute;
+	z-index: 99999;
+}
+.flexy-menu ul {
+	left: 0;
+	padding-top:0px;
+}
+.flexy-menu ul li ul {
+	top: -2px;
+	left: 100%;
+	background:none;
+	padding:0px;
+}
+.flexy-menu ul li {
+	clear: both;
+	width: 100%;
+	border: none;
+	font-size: 14px;
+}
+.flexy-menu ul li a {
+	display: inline-block;
+	float: left;
+	clear: both;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 10px 20px 10px 18px;
+	color: #999;
+	width: 170px;
+	border:none;
+	font-size: 13px;
+	text-align:left;
+	background: #FFF;
+}
+.flexy-menu ul li a:hover{
+    border: none;
+}
+.flexy-menu > li .indicator {
+	position: absolute;
+	color: #111;
+	top: 20px;
+	right: 8px;
+	font-size: 17px;
+	display:none;
+}
+.flexy-menu ul > li .indicator {
+	top: 5px;
+	right: 8px;
+	display:none;
+}
+.flexy-menu i {
+	line-height: 15px !important;
+    margin-left: 8px;
+    font-size: 16px;
+    float: right;
+}
+.flexy-menu > li.showhide {
+	display: none;
+	width: 100%;
+	height: 50px;
+	cursor: pointer;
+	color: #111;
+	border-top: solid 1px rgba(0, 0, 0, 0.1);
+	border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+	background: #FFF;
+	list-style: none;
+}
+.flexy-menu > li.showhide span.title {
+	margin: 16px 0 0 25px;
+	float: left;
+	color: #111;
+	font-size:17px;
+	line-height:18px;
+}
+.flexy-menu > li.showhide span.icon {
+	margin: 17px 20px;
+	float: right;
+}
+.flexy-menu > li.showhide .icon em {
+	margin-bottom: 3px;
+	display: block;
+	width: 20px;
+	height: 2px;
+	background: #111;
+}
+.flexy-menu.vertical {
+	width: 200px;
+}
+.flexy-menu.vertical li {
+	width: 100%;
+}
+.flexy-menu.vertical li a {
+	display: inline-block !important;
+	width: 100%;
+	padding: 18px 20px 16px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.flexy-menu.vertical ul li {
+	width: 100%;
+}
+.flexy-menu.vertical ul, .flexy-menu.vertical ul li ul {
+	width: 150px;
+}
+.flexy-menu.vertical ul {
+	top: 0;
+	left: 100%;
+}
+.flexy-menu.vertical ul li ul {
+	top: 0px;
+}
+.flexy-menu.vertical.right {
+	float: right !important;
+}
+.flexy-menu.vertical.right ul {
+	left: -150px !important;
+}
+.flexy-menu.vertical > li .indicator {
+	top: 17px;
+	right: 15px;
+	font-size: 17px;
+}
+.flexy-menu.vertical ul > li .indicator {
+	top: 18px;
+	right: 15px;
+}
+
+@media only screen and (max-width: 789px) {
+.flexy-menu {
+	width: 104%;
+	margin-left: -2%;
+}
+.flexy-menu li + li {
+    border-left: none;
+}
+.flexy-menu li {
+	display: block;
+	width: 100%;
+	background-image: none !important;
+	border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+	background: #FFF;
+}
+.flexy-menu > li > a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	font-weight: normal;
+	color: #111;
+}
+.flexy-menu a {
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.flexy-menu ul, .flexy-menu ul li ul, .flexy-menu.vertical ul, .flexy-menu.vertical ul li ul {
+	width: 100%;
+	left: 0;
+	border-left: none;
+	position: static;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.flexy-menu ul li {
+	border-left: none;
+	border-right: none;
+}
+.flexy-menu ul li a, .flexy-menu.vertical ul li a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.flexy-menu ul > li > a {
+	padding-left: 40px !important;
+}
+.flexy-menu > li .indicator {
+	top: 15px;
+	right: 25px;
+	font-size: 17px;
+	display:block;
+}
+.flexy-menu ul > li .indicator {
+	right: 24px;
+	display:block;
+	top: 12px;
+	color: #000;
+}
+.flexy-menu.vertical ul > li .indicator {
+	top: 10px;
+	right: 15px;
+}
+.flexy-menu > li > ul > li > a {
+	padding-left: 40px !important;
+	width: 100%;
+}
+.flexy-menu > li > ul > li > ul > li > a {
+	padding-left: 60px !important;
+	width: 100%;
+}
+.flexy-menu > li > ul > li > ul > li > ul > li > a {
+	padding-left: 80px !important;
+}
+.flexy-menu li:hover > a, .flexy-menu li.active a {
+	color: #ccc !important;
+	background:none;
+
+}
+}

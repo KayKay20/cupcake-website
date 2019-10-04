@@ -1,0 +1,422 @@
+<!doctype>
+<html>
+<head>
+	<title> Kaylin Raubenheimer</title>
+		<meta charset="utf-8">
+		<meta name="description" content="HTML,Desdign,Layout">
+		<meta name="keywords" content="design">
+		<meta name="author" content="Kaylin Raubenheimer">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1">
+          <link rel="icon" href="images/favicon_03.png" type="image/x-icon">
+
+		<link rel="stylesheet" href="css/stylesheet.css">
+        <link href="css/fe_menu.css" rel="stylesheet" type="text/css"/>
+        
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    
+    
+    <!--menu-->     
+    <script src="js/menu/flexy-menu.js"></script>
+    <script src="js/menu/sticky.js"></script>
+    
+        
+    
+    <!--slider_js-->
+        <script type="text/javascript" src="js/owl.carousel.js"></script>
+        <script type="text/javascript" src="js/owl.autoplay.js"></script>
+        <script type="text/javascript" src="js/owl.navigation.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/slider.css"/>
+    
+    <script type="text/javascript">
+            $(document).ready(function() {
+                $(".flexy-menu").flexymenu({speed:400, indicator:true});
+                $(".header_container").sticky({topSpacing:0});
+                              $('#owl-demo').owlCarousel({
+                                  items:1,
+                                  responsive:true,
+                                  loop:true,
+                                  autoplay:true,
+                                  autoplayTimeout:5000,
+                                  autoplayHoverPause:true,
+                                  nav:true,
+                                  navText:["",""],
+                                  smartSpeed:1000,
+                                  dots:true,
+                              });
+                
+                
+                                $('#testimonials_slider').owlCarousel({
+                                  items:1,
+                                  responsive:true,
+                                  loop:true,
+                                  autoplay:true,
+                                  autoplayTimeout:5000,
+                                  autoplayHoverPause:true,
+                                  nav:true,
+                                  navText:["",""],
+                                  smartSpeed:1000,
+                                  dots:true,
+                              });
+                
+                
+            });
+        </script>
+    
+</head>
+<body>
+	
+	<header class="header_container">
+        <div class="wrapper">	
+            <a href="#home"><img src="images/logo_03.png" alt="Company name" class="logo"></a>
+	
+		<nav>
+		  <ul class="flexy-menu">
+            <li><a href="#about_us">About us</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#map">Map</a></li>
+            <li><a href="#contact_us">Contact us</a></li>
+            <li><a href="#bookings">Bookings</a></li>
+		  </ul>
+		</nav>
+            
+        </div>
+        <div class="clear"></div>
+	
+	</header>
+   
+		<div class="slider">
+        <div id="owl-demo" class="owl-carousel">
+            <div class="item">
+		          <img src="images/banner.png">
+            </div>
+            <div class="item">
+                <img src="images/nice.jpg" width="965" height="643">            
+		  </div>
+            <div class="item">
+                <img src="images/plate.jpg">
+            
+            
+            </div>
+        
+        </div>
+        </div>
+	
+	
+	<a id="about_us"></a>
+	<section id="container_01">
+	
+        <div class="wrapper">
+            <div class="content">
+
+            <h2 class="pagetitle">Welcome To House Of Desserts</h2>
+            <img src="images/cake_03.png" alt="Chocolate Cake" class="content_image">
+            <p>House Of Desserts is the one and only dessert resturant in the solar system that offers seductivily mouth watering desserts that sure to hit your sweet spot.</p>
+            <p>We have been featured in a multidute of media, recieved more awards than you can count, and continues to whip up the most dynamic desserts.</p>
+            <p>From our classy carrot cake to our naughty oreo cheese cake, you'll be sure to find the slice of your life.</p>
+            <p>Cake is form of sweet desserts that is typically baked.</p>
+            <p>In it's oldest forms, cakes were modifications of breas, but cakes no cover a wide range of preparations that can be simple or elaborate, and that share features with other desserts such as pastries, meringues, cusards and pies.</p>
+            
+                <!--content-->
+            </div>
+            <!--wrapper-->
+         </div>
+        <div class="clear"></div>
+	</section>
+        
+   
+        
+	<a id="gallery"></a>
+	<section class="container_02">
+        <div class="wrapper"> 
+            <h2>Gallery</h2>
+        <div class="images">
+            <div class="image">
+                <div class="image_hover"></div>
+                <img src="images/chocolate_1.png">
+            </div>
+            <div class="image">
+                <div class="image_hover"></div>
+                 <img src="images/cookies_2.png">
+            </div>
+            <div class="image">
+                <div class="image_hover"></div>
+                <img src="images/biscuits_3.png">
+            </div>
+        </div>
+        <div class="images">
+            <div class="image">
+                <div class="image_hover"></div>
+                <img src="images/cupcake_4.png" width="282px">
+            </div>
+            <div class="image">
+                <div class="image_hover"></div>
+                 <img src="images/resturant_5.png">
+            </div>
+            <div class="image">
+                <div class="image_hover"></div>
+                <img src="images/milkshake_6.png">
+            </div>
+        </div>    
+
+        </div>
+        <div class="clear"></div>
+	</section>
+
+	
+        <a id="menu"></a>
+         <h2>Menu</h2>
+        <section class="container_03">
+        <div class="food_price">
+        <div class="wrapper">
+            <div class="col25">
+                <img src="images/muffins.png">
+                <img src="images/ice-cream.png">
+                <img src="images/trifle.png">
+            </div>
+            <div class="col75">
+                <table cellpadding="0" cellpadding="0" border="0" class="menu">
+                    <tbody>
+                <tr>
+                    <th colspan="2">Desserts</th>
+                </tr>
+                <tr>
+                    <td>Triffle with all the types of can fruit that is fresh from the farm</td>
+                    <td>R80.99</td>
+                </tr>
+                <tr>
+                    <td>Malva pudding with delicuious cake and ultra-mel</td>
+                    <td>R35.00</td>
+                </tr>
+                <tr>
+                    <td>Chocolate and White Moose Cake with different types of toppings of your choice</td>
+                    <td>R65.00</td>
+                </tr>
+                
+                <tr>
+                    <th colspan="2">Tasty Treats</th>
+                </tr>
+                <tr>
+                    <td>Different of your favourite fruits mixed together with yoghurt of your choice or ice-cream.</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">Small</td>
+                    <td>R20.99</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">Medium</td>
+                    <td>R35.99</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">Large</td>
+                    <td>R40.99</td>
+                </tr>
+                        
+                <tr>
+                    <th colspan="2">Ice-Cream</th>
+                </tr>
+                <tr>
+                    <td>Chocolate</td>
+                    <td>R30.99</td>
+                </tr>
+                <tr>
+                    <td>Strawberries</td>
+                    <td>R30.99</td>
+                </tr>
+                <tr>
+                    <td>Blue-berry cheese cake</td>
+                    <td>R30.99</td>
+                </tr>
+                <tr>
+                    <td>Vinalla</td>
+                    <td>R30.99</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Beverages</th>
+                </tr>
+                <tr>
+                    <td>Coke</td>
+                    <td>R20.99</td>
+                </tr>
+                <tr>
+                    <td>Milshakes</td>
+                </tr>
+                <tr>
+                    <td style="text-align:center">Small</td>
+                    <td>R35.99</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">Medium</td>
+                    <td>R45.00</td>
+                </tr>
+                <tr>
+                    <td style="text-align: center">Large</td>
+                    <td>R65.00</td>
+                </tr>
+
+        </tbody>
+        </table>
+                <!--col75-->
+            </div>
+            <!--wrapper-->
+            </div>
+            <!--food_price-->
+            </div>  
+    <div class="clear"></div>
+    </section>
+    
+    <a id="testimonials"></a>
+    <section class="container04">
+            <div class="wrapper">
+                
+                
+        <div class="testimonials">
+            <h2>Testimonials</h2>
+        <div id="testimonials_slider" class="owl-carousel">
+            <div class="item">
+		           <p>Hi, Kaylin! I just wanted to thank you for the AMAZING cake! You'll get lots of pictures when we get them, but I have to tell you, not only was it the coolest wedding cake in the world, but it was absolutely delicious! There were more pictures taken of the cake than of Jimmy and I. I wish I was making that up. In fact, someone at the wedding is friends with the guys from E-Town Concrete (a Jersey hardcore band) and apparently, the cake went viral! Jimmy is going to put it on Iron Maiden's Facebook and we'll see what happens, but it was a MASSIVE hit! I can't thank you enough for putting the time and effort into something so spectacular. You took our silly idea and made it into a work of art, and it really meant a lot to us. And the cookies! OMG were they GORGEOUS! We saved three of them, and my mom and I just split </p>
+            </div>
+            <div class="item">
+                 <p>I wanted to congratulate BUSI first of all for the service that was sensational, and to say that he is an excellent professional !! The food really is sensational, exceptional, wonderful, extraordinary, perfect, the best place in South Africa without a doubt, in fact I spoke all this because I did not find a specific word to define what we feel! CONGRATULATIONS !!!!!! Wordless, it was the best mushroom triffle of my life! For those who like triffle you can not miss coming to this restaurant and being served by BUSI. </p>           
+		  </div>
+            <div class="item">
+                 <p>I took a friend out for her birthday and booked dinner at Stellenbosch Kitchen and as always, everyone was super happy and impressed. We had the tempura prawns and mushroom risotto for starters (sorry I didn’t take photos) as they are both always Devine and can’t choose so shared it and had the herb crusted lamb rack and pork belly as mains. Needles to say there was no chance we could squeeze in a desert as their portions are really good and we enjoyed it thoroughly. The atmosphere is always so cozy and our waiter was friendly, attentive and just wonderful. We will be back. </p>
+            
+            
+            </div>
+        
+        </div>
+        </div>           
+                
+            <!--wrapper-->
+            </div>
+        <div class="clear"></div>
+    </section>
+    
+    <a id="map"></a>
+    <section class="container05 map">
+        <h2>Map</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.326339016422!2d18.42040871580855!3d-33.90699962847494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc67599abb5bb3%3A0xcc1a97af54b0520b!2sV+%26+A+Waterfront%2C+Cape+Town%2C+8001!5e0!3m2!1sen!2sza!4v1540293781532" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+     
+    <div class="clear"></div>
+    </section>
+    
+    
+     <a id="contact_us"></a>
+    <section class="container06 contact_us">
+        <div class="wrapper">
+       <h2>Contact us</h2>
+            
+        <p>If you would like to contact us during non 
+            business hours, please use the contact form
+            below, and we will try to answer all your inquiries.
+             you could also order on the form.</p>
+            <div class="col50">
+            <table cellpadding="0" cellspacing="0" border="0" class="contact">
+                <tbody>
+                <tr>
+                    <td><img src="images/email.png"></td>
+                    <td>houseofdesserts@gmail.com</td>
+                </tr>
+             
+                <tr>
+                    <td><img src="images/call.png"></td>
+                    <td>021 568 6486</td>
+                </tr>
+                <tr>
+                    <td><img src="images/location.png"></td>
+                    <td>19 Dock Road</td>
+                    
+                </tr>
+                <tr>
+                    <td>&nbsp</td>
+                    <td>Harbor Side</td>
+                </tr>
+                <tr>
+                    <td>&nbsp</td>
+                    <td>Waterfront</td>
+                </tr>
+                <tr>
+                    <td>&nbsp</td>
+                    <td>1917</td>
+                </tr>
+                       
+            </tbody>
+            </table>
+            </div>
+            <div class="col50">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftakethecakedesserts%2F&tabs=timeline&width=480&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="480" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            </div>
+         <div class="clear"></div>
+        </section>
+    
+   
+    <a id="bookform"></a>
+    <section class="container07 bookform">
+        <div class="wrapper">
+            <div class="bookform">
+            <h2> Bookings</h2>
+	<form name="frml" id="frml" method="post">
+	<table cellpadding="0" cellspacing="0" border="0" class="contact">
+		<tbody>
+		<tr>
+			<th>Name and Surname: *</th>
+        </tr>
+        <tr>
+			<td><input name="name" id="name" type="text"></td>
+		</tr>
+		<tr>
+            <th>Contact Number*</th>
+        </tr>
+            <tr>
+			<td><input name="number" id="name" type="text"></td>
+		</tr>
+		<tr>
+		`	<th>Email Address: *</th>
+        </tr>
+        <tr>
+			<td><input name="number" id="name" type="text"></td>
+		</tr>
+		<tr>
+			<th>Comment: *</th>
+        </tr>
+        <tr>
+			<td><textarea name="comment" cols="40" rows="5" placeholder="4 to 8 charactes long"></textarea></td>
+		</tr>
+		<tr>
+			<th>&nbsp</th>
+        </tr>
+        <tr>
+			<td><button>Submit</button></td>
+		</tr>
+		<tbody>
+		</table>
+		</form>
+        <!--bookings-->
+        </div>
+            <!--wrapper-->
+        </div> 
+         <div class="clear"></div>
+    </section>
+    
+    <footer>
+        <div class="wrapper">
+            
+            
+            <ul class="social_media">
+		          <li><a href="" title=""><img src="images/facebook.png" alt="Like House Of Desserts on Facebook"></a></li>
+		          <li><a href="" title=""><img src="images/twitter.png" alt="Follow House Of Desserts on Twitter"></a></li>
+                  <li><a href=""title=""><img src="images/pinterest.png" alt="Follow House Of Desserts on Pinterest"></a></li>
+		          <li><a href="" title=""><img src="images/instagram.png" alt="Follow House Of Desserts on Instagram"></a></li>
+            </ul>
+            <p>© 2018 House Of Desserts | Terms & Conditions
+                Designed & developed by Kaylin Raubenheimer</p>
+            <!--wrapper-->
+        </div>
+    </footer>
+
+	
+</body>
+</html>
